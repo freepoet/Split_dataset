@@ -22,9 +22,9 @@ import shutil
 class CopyXml():
     def __init__(self):
         # 你的xml格式的annotation的路径
-        self.path = 'Annotations'
+        self.path = '/media/n/SanDiskSSD/HardDisk/data/SSDD/VOC2007/Annotations'
         # 你训练集/测试集xml格式annotation存放的路径
-        self.newpath = 'test_annotations'
+        self.newpath = '/media/n/SanDiskSSD/HardDisk/data/SSDD/VOC2007/train_annotations'
 
     def startcopy(self):
         filelist = os.listdir(self.path)  # file list in this directory
@@ -42,7 +42,7 @@ class CopyXml():
 # load the list of train/test file list
 def loadFileList():
     filelist = []
-    f = open("ImageSets/Main/test.txt", "r")
+    f = open("/media/n/SanDiskSSD/HardDisk/data/SSDD/VOC2007/ImageSets/Main/train.txt", "r")
     lines = f.readlines()
     for line in lines:
         # 去掉文件中每行的结尾字符

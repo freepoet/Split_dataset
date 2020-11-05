@@ -15,7 +15,7 @@ import random
 trainval_percent = 0.8
 train_percent = 0.8
 xmlfilepath = 'VOC2007/Annotations'
-txtsavepath = 'VOC2007/ImageSets\Main'
+txtsavepath = 'VOC2007/ImageSets/Main'
 total_xml = os.listdir(xmlfilepath)
 
 num = len(total_xml)
