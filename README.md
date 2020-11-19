@@ -6,3 +6,5 @@
 将VOC2007文件夹下train_annotations和test_annotations文件夹按转换为voc_2007_train/test.json文件，用于coco数据集训练
 ## create_label_map.py
 
+## SplitVOCImagesTo3Sets.py
+将VOC数据集里的images按照imageset分成4个部分
