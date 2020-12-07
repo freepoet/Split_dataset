@@ -8,3 +8,6 @@
 
 ## SplitVOCImagesTo3Sets.py
 将VOC数据集里的images按照imageset分成4个部分
+
+## jpg2png.py
+jpg与png格式的图片批量转换
